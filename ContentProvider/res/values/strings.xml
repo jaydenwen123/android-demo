@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">测试content provider内容提供者</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="name">name</string>
+    <string name="age">age</string>
+
+</resources>

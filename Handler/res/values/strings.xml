@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Handler</string>
+    <string name="title">测试handler的用法</string>
+    <string name="start">start</string>
+    <string name="end">end</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="setValue">设置进度条</string>
+    <string name="secondAcitivity">测试handler的用法（2）</string>
+    <string name="toNext">去往下一个页面</string>
+    <string name="title_activity_thrid">ThridActivity</string>
+	<string name="thridTitle">测试handler的用法（3）</string>
+	<string name="click">测试bundle 和 handler</string>
+</resources>

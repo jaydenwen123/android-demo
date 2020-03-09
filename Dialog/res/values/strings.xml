@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">测试android对话框功能</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="button1">显示提醒对话框带按钮</string>
+    <string name="button2">显示提醒对话框下拉列表</string>
+    <string name="button3">显示提醒对话框复选框</string>
+    <string name="button4">显示提醒对话框单选框</string>
+    <string name="button5">显示登录对话框</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="gonext">gonext</string>
+    <string name="progressDialog">显示进度条对话框</string>
+    <string name="show1">显示进度条对话框1</string>
+    <string name="show2">显示日期对话框</string>
+    <string name="show3">显示时间对话框</string>
+
+    <string-array name="items">
+        <item>篮球</item>
+        <item>足球</item>
+        <item>羽毛球</item>
+        <item>排球</item>
+        
+    </string-array>
+
+</resources>

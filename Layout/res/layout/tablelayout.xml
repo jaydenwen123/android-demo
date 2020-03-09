@@ -1,0 +1,129 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tableLayoutTitle" />
+	<TableLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    >
+	   <TableRow
+	       android:layout_width="fill_parent"
+	       android:layout_height="wrap_content"
+	       android:layout_weight="1"
+	       >t
+	       <EditText 
+	           android:id="@+id/edit1"
+	           android:layout_width="fill_parent"
+	           android:layout_height="wrap_content"
+	           android:layout_weight="1"
+	           android:inputType="text"
+	           android:visibility="visible"/>
+	       <EditText 
+	           android:id="@+id/edit2"
+	           android:layout_width="fill_parent"
+	           android:layout_height="wrap_content"
+	           android:layout_weight="1"
+	           android:inputType="text"
+	           android:visibility="visible"/>
+	   </TableRow>
+	   <TableRow
+	        android:layout_width="fill_parent"
+	       android:layout_height="wrap_content"
+	       android:layout_weight="1"
+	        >
+	       
+	        <TextView 
+	            android:id="@+id/text1"
+	        android:layout_height="wrap_content"
+	        android:layout_width="fill_parent"
+	        android:layout_gravity="center"
+	        android:layout_weight="1"
+	        android:textColor="#5AE308"
+	        android:background="#FF0000"/>
+	         <TextView 
+	            android:id="@+id/text2"
+	       	android:layout_height="wrap_content"
+	        android:layout_width="fill_parent"
+	        android:layout_gravity="center"
+	        android:layout_weight="1"
+	        android:textColor="#E30AC4"
+	        android:background="#00FF00"/>
+	   </TableRow>
+	   <TableRow 
+	       android:layout_width="fill_parent"
+	       android:layout_height="wrap_content"
+	       android:layout_weight="1" 
+	       >
+	       
+	        <Button 
+	            android:id="@+id/showText"
+	        android:layout_height="wrap_content"
+	        android:layout_width="fill_parent"
+	        android:layout_weight="1"
+	        android:textColor="#5AE308"
+	        android:background="#808080"
+	        android:text="@string/button"/>
+	         <Button 
+	             android:id="@+id/toNext"
+	       	android:layout_height="wrap_content"
+	        android:layout_width="fill_parent"
+	        android:layout_gravity="center"
+	        android:layout_weight="1"
+	        android:textColor="#E30AC4"
+	        android:text="@string/nextActivity"/>
+	   </TableRow>
+	</TableLayout>
+
+	<TableLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+
+	    <TableRow
+	        android:id="@+id/tableRow1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="fill_parent"
+	        android:contentDescription="123" >
+
+	        <TextView
+	            android:id="@+id/textView1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:paddingRight="30dp"
+	            android:text="列一" />
+
+	        <TextView
+	            android:id="@+id/textView2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:paddingRight="30dp"
+	            android:text="列二" />
+
+	    </TableRow>
+
+	    <TableRow
+	        android:id="@+id/tableRow2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" >
+	    </TableRow>
+
+	    <TableRow
+	        android:id="@+id/tableRow3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" >
+	    </TableRow>
+
+	    <TableRow
+	        android:id="@+id/tableRow4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" >
+	    </TableRow>
+	</TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item 
+	    android:id="@+id/open"
+	    android:title="open"
+	    android:showAsAction="withText"
+	    android:icon="@drawable/image7"
+	    />
+	<item 
+	    android:id="@+id/save"
+	    android:title="save"
+	    android:showAsAction="ifRoom"
+	    android:icon="@drawable/image6"
+	    />
+	<item 
+	    android:id="@+id/close"
+	    android:title="close"
+	    android:showAsAction="withText"
+	    android:icon="@drawable/image5"
+	    />
+	
+</menu>

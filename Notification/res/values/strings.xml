@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notification</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="showToast">显示自定义的对话框</string>
+	<string name="notification">显示简单的通知</string>
+</resources>

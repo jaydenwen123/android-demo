@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sqlite</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="sqliteTitle">测试sqlite</string>
+	<string name="createDatabase">创建数据库</string>
+	<string name="updateDatabase">更新数据库</string>
+	<string name="insert">添加</string>
+	<string name="update">修改</string>
+	<string name="delete">删除</string>
+	<string name="query">查询</string>
+</resources>

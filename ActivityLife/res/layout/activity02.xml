@@ -1,0 +1,47 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/secondActivity" />
+    <TextView 
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:text="@string/title"
+        />
+   <EditText 
+       		android:id="@+id/first"
+       		android:layout_width="fill_parent"
+       		android:layout_height="wrap_content"
+       		android:inputType="text"
+       		
+       />
+    <TextView 
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:text="@string/operator"
+        />
+    
+   	 <EditText 
+      		android:id="@+id/second"
+      		android:layout_width="fill_parent"
+      		android:layout_height="wrap_content"
+      		android:inputType="text"	
+      />
+
+       <!--  android:layout_below="@id/textView2" -->
+    <Button 
+        android:id="@+id/button2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button2"
+        />
+</LinearLayout >

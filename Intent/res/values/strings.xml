@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Intent</string>
+    <string name="title1">测试通过静态变量来传值</string>
+    <string name="title2">测试通过全局变量来传值</string>
+    <string name="title3">测试通过剪贴板来传值</string>
+    <string name="title4">测试通过intent在两个activity中来传值</string>
+    <string name="button1">静态变量传值</string>
+    <string name="button3">通过全局变量</string>
+    <string name="button5">通过剪贴板</string>
+    <string name="title_activity_trans_data11">TransData11</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="add">计算两个数的和</string>
+
+</resources>

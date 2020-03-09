@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Broadcast</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="button">text broadcast</string>
+    <string name="button2">to next</string>
+    <string name="title_activity_broadcast2">Broadcast2Activity</string>
+    <string name="title">测试Android的broadCast广播</string>
+	<string name="registerBroadcast">注册广播</string>
+	<string name="unregisterBroadcast">去掉注册的广播</string>
+	<string name="sendBroadcast">sendBroadcast</string>
+</resources>

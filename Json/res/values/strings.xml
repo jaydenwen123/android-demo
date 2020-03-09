@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">测试Android解析json数据</string>
+    <string name="title">测试Android解析json数据</string>
+    <string name="button1">解析json数据person</string>
+    <string name="button2">解析json数据list中persons</string>
+    <string name="button3">解析json数据liststring</string>
+    <string name="button4">解析json数据listmap</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="toNext">跳转到下一个页面</string>
+    <string name="title1">测试gson解析json数据</string>
+    <string name="title2">测试fastjson解析json数据</string>
+    <string name="title_activity_thrid">ThridActivity</string>
+
+</resources>

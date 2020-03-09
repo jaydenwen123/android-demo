@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title" />
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:text="只能输入数字0-9" />
+
+    <EditText
+        android:id="@+id/t1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/number"
+        android:layout_margin="3dp"
+        android:digits="0123456789" />
+    <!--需注意连个属性android:digits     android:inputType -->
+
+   <!--  <TextView
+        android:id="@+id/zimu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t1"
+        android:text="只能输入26字母" />
+
+    <EditText
+        android:id="@+id/t2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/zimu"
+        android:layout_margin="3dp"
+        android:digits="abcdefghijklmnoppqrstuvwxyz" /> -->
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t1"
+        android:text="只能输入邮箱格式" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email"
+        android:layout_margin="3dp"
+        android:inputType="textEmailAddress"
+        android:id="@+id/inputEmail" />
+
+    <Button
+         android:id="@+id/button3" 
+         android:layout_below="@id/inputEmail"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="ok"
+         android:onClick="onclick"
+        />
+    <Button
+         android:id="@+id/button4" 
+         android:layout_below="@id/button3"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="toNext"
+        />
+
+</RelativeLayout>

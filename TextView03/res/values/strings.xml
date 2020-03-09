@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">测试textView实现activity之间的跳转</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tag1">测试textView实现activity之间的跳转</string>
+    <string name="toActivity1">到activity1</string>
+    <string name="toActivity2">到activity2</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_third">ThirdActivity</string>
+
+</resources>

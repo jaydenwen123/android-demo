@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Download</string>
+    <string name="testDownload">测试android下载文件</string>
+	<string name="downText">下载txt文本文件</string>
+	<string name="downOther">下载所有文件</string>
+</resources>

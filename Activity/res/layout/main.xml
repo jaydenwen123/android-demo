@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+	<!-- vertical:垂直的。
+		horizontal：水平的
+	 -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <!--  android:text="@string/hello_world" 不用直接来赋值u，到时候通过按钮点击来给其进行赋值 -->
+   	<Button android:layout_width="fill_parent"
+   	    	android:layout_height="wrap_content"
+   	    	android:text="@string/button"
+   	    	android:id="@+id/button"
+   	    />
+   	<EditText android:layout_width="fill_parent"
+   	    	 android:layout_height="wrap_content"
+   	    	 android:inputType="text"
+   	    	 android:visibility="visible"
+   	    	 android:id="@+id/editText"
+   	    />
+</LinearLayout>

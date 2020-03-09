@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">图像处理作业</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title">测试图片的灰度和量度</string>
+    <string name="huidu1">灰度1</string>
+    <string name="huidu2">灰度2</string>
+    <string name="huidu3">灰度3</string>
+    <string name="light">量度变暗</string>
+    <string name="jingxiang">镜像</string>
+    <string name="jiazai">量度变亮</string>
+
+</resources>

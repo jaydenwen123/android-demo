@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title" />
+    <ProgressBar 
+        android:layout_width="200dp"
+        android:id="@+id/bar"
+        android:layout_height="wrap_content"
+       style="?android:attr/progressBarStyleHorizontal"
+       	android:visibility="gone"
+        />
+   <LinearLayout 
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       >
+       
+        <Button 
+        android:id="@+id/start"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start"
+        android:layout_weight="1"
+        
+        />
+        <!--  
+       	 设置button的样式
+        style="?android:attr/buttonBarButtonStyle"  
+        style="?android:attr/buttonBarButtonStyle"
+        
+        -->
+	    <Button 
+	        android:id="@+id/end"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/end"
+	        android:layout_weight="1"
+	        />
+   </LinearLayout>
+   <Button 
+	        android:id="@+id/toNext"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/toNext"
+	        />
+
+</LinearLayout>

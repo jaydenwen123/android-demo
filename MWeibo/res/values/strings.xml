@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">我的微博</string>
+    <string name="logo">logo</string>
+    <string name="title_activity_authority">AuthorityActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="user_head">user_head</string>
+    <string name="loginOption">loginOption</string>
+    <string name="login">登录</string>
+    <string name="msg">第一次登录需要使用您的新浪微博账号进行登录授权</string>
+    <string name="start">开始</string>
+    <string name="get_access_token">正在进行授权，请等待。。。</string>
+
+    <string-array name="spinner_array">
+        <item>密码登录</item>
+        <item>qq登录</item>
+        <item>微信登录</item>
+    </string-array>
+
+    <string name="title_activity_web_view">WebViewActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_access_token">AccessTokenActivity</string>
+
+</resources>

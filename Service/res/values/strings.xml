@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Service</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="testService">测试Android的service组件的生命周期</string>
+    <string name="testService2">测试Android的service组件和activity组件的绑定</string>
+    <string name="button1">开始service</string>
+    <string name="button2">结束service</string>
+    <string name="button3">绑定service</string>
+
+</resources>

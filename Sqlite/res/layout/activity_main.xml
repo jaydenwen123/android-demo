@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sqliteTitle"
+        android:layout_weight="1"
+         />
+    <Button 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/createDatabase"
+        android:id="@+id/createDatabase"
+        android:layout_weight="2"
+        />
+    <Button 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/updateDatabase"
+        android:id="@+id/updatedDatabase"
+        android:layout_weight="2"
+        />
+    <Button 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/insert"
+        android:id="@+id/insert"
+        android:layout_weight="2"
+        />
+    <Button 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update"
+        android:id="@+id/update"
+        android:layout_weight="2"
+        />
+    <Button 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete"
+        android:id="@+id/delete"
+        android:layout_weight="2"
+        />
+    <Button 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/query"
+        android:id="@+id/query"
+        android:layout_weight="2"
+        />
+    
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Layout</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="button">点击一下显示值</string>
+    <string name="title">测试android的LinearLayout线性布局</string>
+    <string name="nextActivity">跳到下一个页面</string>
+    <string name="title_activity_table_layout">TableLayout</string>
+    <string name="tableLayoutTitle">测试android 的表格布局TableLayout</string>
+    <string name="title_activity_relative_layout">RelativeLayout</string>
+    <string name="relativeTitle">提示，输入你的个人信息</string>
+    <string name="buttonOk">OK</string>
+    <string name="buttongCancel">Cancel</string>
+    <string name="title_activity_radio">MainActivity</string>
+    <string name="radioMsg">测试radio和checkbox</string>
+    <string name="female">女</string>
+    <string name="male">男</string>
+    <string name="swim">游泳</string>
+    <string name="reading">阅读</string>
+    <string name="basketBall">篮球</string>
+    <string name="football">足球</string>
+    <string name="volleyBall">排球</string>
+    <string name="toShowListView">点击到下一个页面，显示ListView控价</string>
+    <string name="title_activity_listview">ListViewActivity</string>
+    <string name="processorBar">测试processorBar</string>
+    <string name="showprogressbar">显示progressBar</string>
+    <string name="title_activity_progressBar">progressBarActivity</string>
+	<string name="listViewtitle">测试listView控件</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ActivityLife</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main_activity02">MainActivity02</string>
+    <string name="firstActivity">first activity</string>
+    <string name="secondActivity">second activity</string>
+    <string name="button">跳转到第二个页面</string>
+    <string name="title_activity_activity03">Activity03</string>
+	<string name="activity03">three activity</string>
+	<string name="button2">跳转到第三个页面,显示结果</string>
+	<string name="title">计算两个数的乘法</string>
+	<string name="operator">乘以</string>
+	<string name="help">帮助</string>
+	<string name="back">返回</string>
+	<string name="msg">你选择的是帮助操作</string>
+</resources>
